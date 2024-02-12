@@ -35,7 +35,13 @@
   color: white;
 }
 
+.cuerpo {
+  min-height: 100vh;
+}
+
 .pie {
+  position: sticky;
+  top: 100%;
   text-align: center;
   font-size: 1.1rem;
   font-weight: bold;
