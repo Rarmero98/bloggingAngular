@@ -27,7 +27,7 @@
           type="text"
           id="cuerpo"
           placeholder="Introduce un texto"
-          class="formulario_inputs"
+          class="formulario_inputs_cuerpo"
           [(ngModel)]="newNoticia.cuerpo"
         />
         <label for="fecha" class="formulario_labels"
@@ -42,7 +42,7 @@
         />
         <button class="btn" (click)="enviar()">Enviar a edición</button>
       </div>
-      <div class="listado" [innerHTML]="cargarDatos()"></div>
+      <div class="listado" [innerHTML]="cargarDatos()">{{ arrNoticias }}</div>
     </div>
   </section>
 </div>

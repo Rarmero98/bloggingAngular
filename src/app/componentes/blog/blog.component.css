@@ -28,6 +28,15 @@
   padding: 5px;
 }
 
+.formulario_inputs_cuerpo {
+  margin: 10px 0 10px 0;
+  border: 1px solid black;
+  border-radius: 5px;
+  color: black;
+  padding: 5px;
+  height: 200px;
+}
+
 ::placeholder {
   color: lightgrey;
 }
@@ -38,6 +47,7 @@
   padding: 5px;
   border: 1px solid black;
   border-radius: 5px;
+  width: 125px;
 }
 
 .btn:hover {

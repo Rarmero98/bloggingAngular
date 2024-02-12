@@ -9,7 +9,22 @@ import { FormsModule } from '@angular/forms';
   styleUrl: './blog.component.css',
 })
 export class BlogComponent {
-  arrNoticias: any[] = [];
+  arrNoticias: any[] = [
+    {
+      titular: 'Noticia del presente',
+      imagen: 'https://placehold.co/600x400',
+      cuerpo:
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+      fecha: '12/02/2024',
+    },
+    {
+      titular: 'Noticia del futuro',
+      imagen: 'https://placehold.co/400x600',
+      cuerpo:
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+      fecha: '12/02/2025',
+    },
+  ];
 
   newNoticia: any = {
     titular: '',
