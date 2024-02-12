@@ -1,0 +1,61 @@
+.wrapper {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1170px;
+  padding: 10px;
+}
+
+.container {
+  display: flex;
+}
+
+.formulario {
+  max-width: 40%;
+  padding: 0 10px 0 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.formulario_labels {
+  font-weight: bold;
+}
+
+.formulario_inputs {
+  margin: 10px 0 10px 0;
+  border: 1px solid black;
+  border-radius: 5px;
+  color: black;
+  padding: 5px;
+}
+
+.formulario_inputs_cuerpo {
+  margin: 10px 0 10px 0;
+  border: 1px solid black;
+  border-radius: 5px;
+  color: black;
+  padding: 5px;
+  height: 200px;
+}
+
+::placeholder {
+  color: lightgrey;
+}
+
+.btn {
+  display: block;
+  background-color: lightcoral;
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 125px;
+}
+
+.btn:hover {
+  color: white;
+}
+
+/* No he sido capaz de hacer que los dos elementos ocupen uno el 40 y otro el 60% del espacio que tienen disponible. En algún punto del proyecto se cambió y ya no fui capaz de volver a arreglarlo. */
+.listado {
+  max-width: 60%;
+  padding: 0 10px 0 10px;
+}

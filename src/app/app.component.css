@@ -1,0 +1,52 @@
+.wrapper {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1170px;
+  padding: 10px;
+}
+
+.encabezado {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0 10px 0;
+  border-bottom: 1px solid black;
+}
+
+.encabezado_title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: lightcoral;
+}
+
+.encabezado_menu {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.encabezado_menu_lis {
+  font-weight: bold;
+  background-color: lightcoral;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.encabezado_menu_lis:hover {
+  color: white;
+}
+
+/* He probado a hacer un sticky footer utilizando este método de los 100vh, pero no termino de conseguir que ocupe solo el espacio que tiene la ventana */
+.cuerpo {
+  min-height: 100vh;
+}
+
+.pie {
+  position: sticky;
+  top: 100%;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: lightcoral;
+  padding: 10px 0 10px 0;
+  border-top: 1px solid black;
+}
