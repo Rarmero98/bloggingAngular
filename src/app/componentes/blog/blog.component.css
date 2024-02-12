@@ -1,0 +1,35 @@
+.wrapper {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1170px;
+  padding: 10px;
+}
+
+.formulario {
+  max-width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.formulario_labels {
+  font-weight: bold;
+}
+
+.formulario_inputs {
+  margin: 10px 0 10px 0;
+  border: 1px solid black;
+  border-radius: 5px;
+  color: rgb(164, 163, 163);
+}
+
+.btn {
+  display: block;
+  background-color: lightcoral;
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  color: white;
+}
