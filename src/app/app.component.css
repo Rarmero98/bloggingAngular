@@ -31,6 +31,10 @@
   border-radius: 5px;
 }
 
+.encabezado_menu_lis:hover {
+  color: white;
+}
+
 .pie {
   text-align: center;
   font-size: 1.1rem;

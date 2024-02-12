@@ -1,35 +1,48 @@
 <div class="wrapper">
   <section>
-    <div class="formulario">
-      <label for="titular" class="formulario_labels">Titular:</label>
-      <input
-        type="text"
-        id="titular"
-        placeholder="Introduce un titular"
-        class="formulario_inputs"
-      />
-      <label for="imagen" class="formulario_labels"
-        >Imagen para ilustrar:</label
-      >
-      <input
-        type="url"
-        id="imagen"
-        placeholder="Pega una url"
-        class="formulario_inputs"
-      />
-      <label for="cuerpo" class="formulario_labels"
-        >Cuerpo de la noticia:</label
-      >
-      <input
-        type="text"
-        id="cuerpo"
-        placeholder="Introduce el texto"
-        class="formulario_inputs"
-      />
-      <label for="fecha" class="formulario_labels">Fecha de publicación:</label>
-      <input type="date" id="fecha" class="formulario_inputs" />
-      <button class="btn">Enviar a edición</button>
+    <div class="container">
+      <div class="formulario">
+        <label for="titular" class="formulario_labels">Titular:</label>
+        <input
+          type="text"
+          id="titular"
+          placeholder="Introduce un titular"
+          class="formulario_inputs"
+          [(ngModel)]="newNoticia.titular"
+        />
+        <label for="imagen" class="formulario_labels"
+          >Imagen para ilustrar:</label
+        >
+        <input
+          type="url"
+          id="imagen"
+          placeholder="Pega una url"
+          class="formulario_inputs"
+          [(ngModel)]="newNoticia.imagen"
+        />
+        <label for="cuerpo" class="formulario_labels"
+          >Cuerpo de la noticia:</label
+        >
+        <input
+          type="text"
+          id="cuerpo"
+          placeholder="Introduce un texto"
+          class="formulario_inputs"
+          [(ngModel)]="newNoticia.cuerpo"
+        />
+        <label for="fecha" class="formulario_labels"
+          >Fecha de publicación:</label
+        >
+        <input
+          type="text"
+          id="fecha"
+          placeholder="dd/mm/aaaa"
+          class="formulario_inputs"
+          [(ngModel)]="newNoticia.fecha"
+        />
+        <button class="btn" (click)="enviar()">Enviar a edición</button>
+      </div>
+      <div class="listado" [innerHTML]="cargarDatos()"></div>
     </div>
-    <div></div>
   </section>
 </div>

@@ -5,8 +5,13 @@
   padding: 10px;
 }
 
+.container {
+  display: flex;
+}
+
 .formulario {
-  max-width: 50%;
+  max-width: 40%;
+  padding: 0 10px 0 10px;
   display: flex;
   flex-direction: column;
 }
@@ -19,7 +24,12 @@
   margin: 10px 0 10px 0;
   border: 1px solid black;
   border-radius: 5px;
-  color: rgb(164, 163, 163);
+  color: black;
+  padding: 5px;
+}
+
+::placeholder {
+  color: lightgrey;
 }
 
 .btn {
@@ -32,4 +42,9 @@
 
 .btn:hover {
   color: white;
+}
+
+.listado {
+  max-width: 60%;
+  padding: 0 10px 0 10px;
 }
