@@ -44,6 +44,7 @@
   color: white;
 }
 
+/* No he sido capaz de hacer que los dos elementos ocupen uno el 40 y otro el 60% del espacio que tienen disponible. En algún punto del proyecto se cambió y ya no fui capaz de volver a arreglarlo. */
 .listado {
   max-width: 60%;
   padding: 0 10px 0 10px;

@@ -118,3 +118,24 @@ meter {
 body {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
+
+.titular {
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding-bottom: 10px;
+}
+
+.imagen {
+  padding-bottom: 10px;
+  align-items: center;
+}
+
+.cuerpo_texto {
+  padding-bottom: 10px;
+}
+
+.fecha {
+  color: lightcoral;
+  padding-bottom: 10px;
+  border-bottom: 1px solid lightcoral;
+}

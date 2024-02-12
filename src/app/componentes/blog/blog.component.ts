@@ -41,10 +41,10 @@ export class BlogComponent {
   cargarDatos(): string {
     let html: string = '';
     this.arrNoticias.forEach((element: any) => {
-      html += `<h1>${element.titular}</h1>`;
-      html += `<img src="${element.imagen}"></img>`;
-      html += `<p>${element.cuerpo}</p>`;
-      html += `<p>${element.fecha}</p>`;
+      html += `<h1 class="titular">${element.titular}</h1>`;
+      html += `<img src="${element.imagen}" class="imagen"></img>`;
+      html += `<p class="cuerpo_texto">${element.cuerpo}</p>`;
+      html += `<p class="fecha">${element.fecha}</p>`;
     });
     return html;
   }

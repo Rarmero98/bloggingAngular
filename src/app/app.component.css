@@ -35,6 +35,7 @@
   color: white;
 }
 
+/* He probado a hacer un sticky footer utilizando este método de los 100vh, pero no termino de conseguir que ocupe solo el espacio que tiene la ventana */
 .cuerpo {
   min-height: 100vh;
 }
@@ -43,7 +44,7 @@
   position: sticky;
   top: 100%;
   text-align: center;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   font-weight: bold;
   color: lightcoral;
   padding: 10px 0 10px 0;
